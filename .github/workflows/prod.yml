@@ -13,7 +13,7 @@ jobs:
 
       - name: Node.JS
         uses: actions/setup-node@v3
-          with:
+        with:
             node-version: 16
       - name: Install modules
         run: npm install
